@@ -1,0 +1,42 @@
+.textContainer {
+  display: flex;
+  flex-direction: column;
+  margin-left: 100px;
+  color: #282c34;
+  height: 80%;
+  justify-content: space-between;
+}
+
+.activeContainer {
+  display: flex;
+  align-items: center;
+  margin-bottom: 50%;
+}
+
+.activeItem {
+  display: flex;
+  align-items: center;
+}
+
+.activeContainer img {
+  padding-left: 20px;
+}
+
+.textContainer h1 {
+  margin-bottom: 0px;
+}
+
+.boxed {
+  border: 2px solid #282c34;
+  background-color: white;
+  padding: 20px;
+  border-radius: 15px;
+  margin-right: 50px;
+  width: 320px;
+}
+
+@media (min-width: 320px) and (max-width: 1200px) {
+  .textContainer {
+    display: none;
+  }
+}
